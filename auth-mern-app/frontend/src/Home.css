@@ -1,0 +1,130 @@
+/* Ensure the body and root container allow scrolling */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: auto; /* Allows scrolling */
+}
+
+/* Fix home container layout */
+.home1-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 100vh; /* Make sure it takes at least full screen height */
+  overflow-y: auto; /* Allows scrolling if content exceeds screen */
+  padding-top: 0px; /* Prevents header from overlapping content */
+  margin-top: 50px;
+}
+
+/* Ensure the main content is properly visible */
+.main-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: calc(100vh - 70px); /* Adjust height dynamically */
+  padding-bottom: 20px;
+}
+
+/* Make sure the header is fixed properly */
+
+
+  /* Left Sidebar */
+  .left-sidebar {
+    width: 20%;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .profile-card {
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-links li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  /* Main Content */
+  .main-content {
+    width: 50%;
+  }
+  
+  .post-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  /* Post Styling */
+  .post {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    max-width: 700px;
+    
+   
+  }
+  
+  .post-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    
+  }
+  
+  /* Right Sidebar */
+  .right-sidebar {
+    width: 25%;
+    background: #d4d8dd;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .sponsored {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .post-media {
+    max-width: 800px; /* Reduce image width */
+    max-height: 800px; /* Reduce image height */
+    object-fit: cover; /* Crop image instead of stretching */
+    display: block;
+    margin: 10px 0;
+   
+    border-radius: 8px; /* Rounded corners */
+}
+.links{
+  text-decoration: none;
+  color: #000;
+  
+}
+
+.links h4:hover {
+  color: rgb(39, 39, 118);
+}

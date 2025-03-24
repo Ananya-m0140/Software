@@ -1,0 +1,176 @@
+/* General Styles */
+.intternships-page.home-container{
+    display: flex;
+float: left;
+margin-left: -900px;
+margin-top: 50px;}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5; /* Light background */
+    color: #002147; /* Dark blue text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Internship Page Container */
+  .internship-container {
+    margin-top: 0px;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 50px;
+    background: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: #002147; /* Deep blue */
+    margin-bottom: 15px;
+  }
+  
+  /* Post Internship Form */
+  .internship-form {
+    text-align: left;
+    background: #fdfdfd; /* Soft white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .internship-form label {
+    display: block;
+    font-weight: bold;
+    margin: 8px 0 5px;
+  }
+  
+  .internship-form input,
+  .internship-form select,
+  .internship-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .internship-form button {
+    width: 100%;
+    padding: 12px;
+    background: #FFD700; /* Golden */
+    color: #002147;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+  }
+  
+  .internship-form button:hover {
+    background: #ffcc00;
+    transform: scale(1.05);
+  }
+  
+  /* Internship Cards */
+  .internship-card {
+    background: #ffffff;
+    border-left: 5px solid #FFD700; /* Gold accent */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .internship-card h3 {
+    color: #002147;
+    margin-bottom: 8px;
+  }
+  
+  .internship-card p {
+    color: #444;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .internship-card strong {
+    color: #002147;
+  }
+  
+  /* Apply Button */
+  .apply-btn {
+    background: #FFD700;
+    color: #002147;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .apply-btn:hover {
+    background: #ffcc00;
+    transform: scale(1.05);
+  }
+  
+  /* Application Form */
+  .application-form {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  /* Applicant List */
+  .applicant-list {
+    margin-top: 15px;
+    padding: 10px;
+    background: #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .applicant-list p {
+    font-size: 14px;
+    color: #002147;
+  }
+  
+  /* Approve Button */
+  .approve-btn {
+    background: #4CAF50; /* Green for approval */
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .approve-btn:hover {
+    background: #45a049;
+  }
+
+  .searching{
+    float: left;
+    margin-right: -1500px;
+    margin-top: 400px;
+    align-items: center;
+    background: #eef3f8;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .internship-container {
+      width: 90%;
+    }
+  }
+  
