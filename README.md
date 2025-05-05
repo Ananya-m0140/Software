@@ -99,6 +99,3 @@ This project is CI/CD enabled via **GitHub Actions**. Any push to the main branc
 **Institute:** IIT Kharagpur
 **Term:** Spring 2025
 
----
-
-Would you like a sample deployment URL section or Dockerfile added as well?
